@@ -70,3 +70,4 @@ Password: admin
 Then generate a project token for Jenkins:
 
 My Account → Security → Generate Token → "SONAR_TOKEN"
+# k8s-CICD-Project
