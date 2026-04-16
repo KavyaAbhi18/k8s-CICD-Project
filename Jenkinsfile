@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo '📦 Cloning repository from GitHub...'
-                git branch: 'master', url: 'https://github.com/KavyaAbhi18/k8s-CICD-Project.git'
+                git branch: 'main', url: 'https://github.com/KavyaAbhi18/k8s-CICD-Project.git'
             }
         }
 
